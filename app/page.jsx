@@ -7,7 +7,7 @@ const Home = () => {
           <br className="max-md:hidden"/>
           <span className="green_gradient text-center">AI-Powered Prompts</span>
         </h1>
-        <p className=" desc text-center">PromptIdea is an open-source AI tool for modern world to discover, create, and share creative prompts.</p>
+        <p className=" desc text-center">IdeaScape is an open-source AI tool for modern world to discover, create, and share creative prompts.</p>
     <Feed/>
     </section>
   )
