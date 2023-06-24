@@ -19,13 +19,13 @@ const Form = ({
     className="mt-10 w-full max-w-2xl flex flex-col gap-7 glassmorphism"
     >
       <label>
-        <spam className= "font-satoshi font-semibold text-base text-gray-700">Your AI Idea</spam>
+        <spam className= "font-satoshi font-semibold text-base text-gray-700">Your AI Prompt</spam>
 
       <textarea
       value = {post.idea}
       onChange={(e) => setPost({ ...post,
       idea: e.target.value})}
-      placeholder="Write your idea here..."
+      placeholder="Write your prompt here..."
       required
       className="form_textarea"
       />
