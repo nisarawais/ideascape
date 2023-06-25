@@ -92,7 +92,7 @@ const Nav = () => {
                   className='dropdown_link'
                   onClick={() => setToggleDropdown(false)}
                 >
-                  Create Idea
+                  Create Post
                 </Link>
                 <button
                   type='button'
