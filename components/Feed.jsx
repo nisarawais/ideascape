@@ -31,7 +31,7 @@ const Feed = () => {
     const data = await response.json();
 
 
-    setAllPosts(data);
+    setAllPosts(data.reverse());
   };
 
   useEffect(() => {
